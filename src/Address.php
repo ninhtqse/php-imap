@@ -10,12 +10,12 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 /**
  * Class Address
  *
- * @package Webklex\PHPIMAP
+ * @package Ninhtqse\PHPIMAP
  */
 class Address {
 

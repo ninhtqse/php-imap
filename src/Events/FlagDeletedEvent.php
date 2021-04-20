@@ -10,12 +10,12 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Events;
+namespace Ninhtqse\PHPIMAP\Events;
 
 /**
  * Class FlagDeletedEvent
  *
- * @package Webklex\PHPIMAP\Events
+ * @package Ninhtqse\PHPIMAP\Events
  */
 class FlagDeletedEvent extends FlagNewEvent {
 

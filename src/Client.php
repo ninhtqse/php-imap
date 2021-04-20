@@ -10,28 +10,28 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 use ErrorException;
 use Exception;
-use Webklex\PHPIMAP\Connection\Protocols\ImapProtocol;
-use Webklex\PHPIMAP\Connection\Protocols\LegacyProtocol;
-use Webklex\PHPIMAP\Connection\Protocols\Protocol;
-use Webklex\PHPIMAP\Connection\Protocols\ProtocolInterface;
-use Webklex\PHPIMAP\Exceptions\AuthFailedException;
-use Webklex\PHPIMAP\Exceptions\ConnectionFailedException;
-use Webklex\PHPIMAP\Exceptions\FolderFetchingException;
-use Webklex\PHPIMAP\Exceptions\MaskNotFoundException;
-use Webklex\PHPIMAP\Exceptions\ProtocolNotSupportedException;
-use Webklex\PHPIMAP\Support\FolderCollection;
-use Webklex\PHPIMAP\Support\Masks\AttachmentMask;
-use Webklex\PHPIMAP\Support\Masks\MessageMask;
-use Webklex\PHPIMAP\Traits\HasEvents;
+use Ninhtqse\PHPIMAP\Connection\Protocols\ImapProtocol;
+use Ninhtqse\PHPIMAP\Connection\Protocols\LegacyProtocol;
+use Ninhtqse\PHPIMAP\Connection\Protocols\Protocol;
+use Ninhtqse\PHPIMAP\Connection\Protocols\ProtocolInterface;
+use Ninhtqse\PHPIMAP\Exceptions\AuthFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\ConnectionFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\FolderFetchingException;
+use Ninhtqse\PHPIMAP\Exceptions\MaskNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\ProtocolNotSupportedException;
+use Ninhtqse\PHPIMAP\Support\FolderCollection;
+use Ninhtqse\PHPIMAP\Support\Masks\AttachmentMask;
+use Ninhtqse\PHPIMAP\Support\Masks\MessageMask;
+use Ninhtqse\PHPIMAP\Traits\HasEvents;
 
 /**
  * Class Client
  *
- * @package Webklex\PHPIMAP
+ * @package Ninhtqse\PHPIMAP
  */
 class Client {
     use HasEvents;

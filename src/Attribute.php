@@ -10,7 +10,7 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 use ArrayAccess;
 use Carbon\Carbon;
@@ -18,7 +18,7 @@ use Carbon\Carbon;
 /**
  * Class Attribute
  *
- * @package Webklex\PHPIMAP
+ * @package Ninhtqse\PHPIMAP
  */
 class Attribute implements ArrayAccess {
 

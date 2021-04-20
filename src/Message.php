@@ -10,27 +10,27 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 use ReflectionClass;
 use ReflectionException;
-use Webklex\PHPIMAP\Exceptions\InvalidMessageDateException;
-use Webklex\PHPIMAP\Exceptions\MaskNotFoundException;
-use Webklex\PHPIMAP\Exceptions\MessageContentFetchingException;
-use Webklex\PHPIMAP\Exceptions\MessageFlagException;
-use Webklex\PHPIMAP\Exceptions\MessageHeaderFetchingException;
-use Webklex\PHPIMAP\Exceptions\MethodNotFoundException;
-use Webklex\PHPIMAP\Support\AttachmentCollection;
-use Webklex\PHPIMAP\Support\FlagCollection;
-use Webklex\PHPIMAP\Support\Masks\MessageMask;
+use Ninhtqse\PHPIMAP\Exceptions\InvalidMessageDateException;
+use Ninhtqse\PHPIMAP\Exceptions\MaskNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageContentFetchingException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageFlagException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageHeaderFetchingException;
+use Ninhtqse\PHPIMAP\Exceptions\MethodNotFoundException;
+use Ninhtqse\PHPIMAP\Support\AttachmentCollection;
+use Ninhtqse\PHPIMAP\Support\FlagCollection;
+use Ninhtqse\PHPIMAP\Support\Masks\MessageMask;
 use Illuminate\Support\Str;
-use Webklex\PHPIMAP\Support\MessageCollection;
-use Webklex\PHPIMAP\Traits\HasEvents;
+use Ninhtqse\PHPIMAP\Support\MessageCollection;
+use Ninhtqse\PHPIMAP\Traits\HasEvents;
 
 /**
  * Class Message
  *
- * @package Webklex\PHPIMAP
+ * @package Ninhtqse\PHPIMAP
  *
  * @property integer msglist
  * @property integer uid

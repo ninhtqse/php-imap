@@ -10,18 +10,18 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 use Carbon\Carbon;
-use Webklex\PHPIMAP\Exceptions\ConnectionFailedException;
-use Webklex\PHPIMAP\Query\WhereQuery;
-use Webklex\PHPIMAP\Support\FolderCollection;
-use Webklex\PHPIMAP\Traits\HasEvents;
+use Ninhtqse\PHPIMAP\Exceptions\ConnectionFailedException;
+use Ninhtqse\PHPIMAP\Query\WhereQuery;
+use Ninhtqse\PHPIMAP\Support\FolderCollection;
+use Ninhtqse\PHPIMAP\Traits\HasEvents;
 
 /**
  * Class Folder
  *
- * @package Webklex\PHPIMAP
+ * @package Ninhtqse\PHPIMAP
  */
 class Folder {
     use HasEvents;

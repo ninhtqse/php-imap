@@ -10,16 +10,16 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Traits;
+namespace Ninhtqse\PHPIMAP\Traits;
 
 
-use Webklex\PHPIMAP\Events\Event;
-use Webklex\PHPIMAP\Exceptions\EventNotFoundException;
+use Ninhtqse\PHPIMAP\Events\Event;
+use Ninhtqse\PHPIMAP\Exceptions\EventNotFoundException;
 
 /**
  * Trait HasEvents
  *
- * @package Webklex\PHPIMAP\Traits
+ * @package Ninhtqse\PHPIMAP\Traits
  */
 trait HasEvents {
 

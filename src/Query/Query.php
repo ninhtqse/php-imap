@@ -10,33 +10,33 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Query;
+namespace Ninhtqse\PHPIMAP\Query;
 
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 use ReflectionException;
-use Webklex\PHPIMAP\Client;
-use Webklex\PHPIMAP\ClientManager;
-use Webklex\PHPIMAP\Exceptions\ConnectionFailedException;
-use Webklex\PHPIMAP\Exceptions\EventNotFoundException;
-use Webklex\PHPIMAP\Exceptions\GetMessagesFailedException;
-use Webklex\PHPIMAP\Exceptions\InvalidMessageDateException;
-use Webklex\PHPIMAP\Exceptions\MessageContentFetchingException;
-use Webklex\PHPIMAP\Exceptions\MessageFlagException;
-use Webklex\PHPIMAP\Exceptions\MessageHeaderFetchingException;
-use Webklex\PHPIMAP\Exceptions\MessageNotFoundException;
-use Webklex\PHPIMAP\Exceptions\MessageSearchValidationException;
-use Webklex\PHPIMAP\Exceptions\RuntimeException;
-use Webklex\PHPIMAP\IMAP;
-use Webklex\PHPIMAP\Message;
-use Webklex\PHPIMAP\Support\MessageCollection;
+use Ninhtqse\PHPIMAP\Client;
+use Ninhtqse\PHPIMAP\ClientManager;
+use Ninhtqse\PHPIMAP\Exceptions\ConnectionFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\EventNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\GetMessagesFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\InvalidMessageDateException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageContentFetchingException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageFlagException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageHeaderFetchingException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageSearchValidationException;
+use Ninhtqse\PHPIMAP\Exceptions\RuntimeException;
+use Ninhtqse\PHPIMAP\IMAP;
+use Ninhtqse\PHPIMAP\Message;
+use Ninhtqse\PHPIMAP\Support\MessageCollection;
 
 /**
  * Class Query
  *
- * @package Webklex\PHPIMAP\Query
+ * @package Ninhtqse\PHPIMAP\Query
  */
 class Query {
 

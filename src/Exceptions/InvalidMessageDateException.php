@@ -10,14 +10,14 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Exceptions;
+namespace Ninhtqse\PHPIMAP\Exceptions;
 
 use \Exception;
 
 /**
  * Class InvalidMessageDateException
  *
- * @package Webklex\PHPIMAP\Exceptions
+ * @package Ninhtqse\PHPIMAP\Exceptions
  */
 class InvalidMessageDateException extends Exception {
 

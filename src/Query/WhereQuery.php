@@ -10,18 +10,18 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Query;
+namespace Ninhtqse\PHPIMAP\Query;
 
 use Closure;
 use Illuminate\Support\Str;
-use Webklex\PHPIMAP\Exceptions\InvalidWhereQueryCriteriaException;
-use Webklex\PHPIMAP\Exceptions\MethodNotFoundException;
-use Webklex\PHPIMAP\Exceptions\MessageSearchValidationException;
+use Ninhtqse\PHPIMAP\Exceptions\InvalidWhereQueryCriteriaException;
+use Ninhtqse\PHPIMAP\Exceptions\MethodNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageSearchValidationException;
 
 /**
  * Class WhereQuery
  *
- * @package Webklex\PHPIMAP\Query
+ * @package Ninhtqse\PHPIMAP\Query
  *
  * @method WhereQuery all()
  * @method WhereQuery answered()

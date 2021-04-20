@@ -10,14 +10,14 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Exceptions;
+namespace Ninhtqse\PHPIMAP\Exceptions;
 
 use \Exception;
 
 /**
  * Class EventNotFoundException
  *
- * @package Webklex\PHPIMAP\Exceptions
+ * @package Ninhtqse\PHPIMAP\Exceptions
  */
 class EventNotFoundException extends Exception {
 

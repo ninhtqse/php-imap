@@ -1,20 +1,20 @@
 {
-    "name": "webklex/php-imap",
+    "name": "ninhtqse/php-imap",
     "type": "library",
     "description": "PHP IMAP client",
     "keywords": [
-        "webklex",
+        "ninhtqse",
         "imap",
         "pop3",
         "php-imap",
         "mail"
     ],
-    "homepage": "https://github.com/webklex/php-imap",
+    "homepage": "https://github.com/ninhtqse/php-imap",
     "license": "MIT",
     "authors": [
         {
-            "name": "Malte Goldenbaum",
-            "email": "github@webklex.com",
+            "name": "Ninhtqse",
+            "email": "ninhtqse@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Webklex\\PHPIMAP\\": "src"
+            "Ninhtqse\\PHPIMAP\\": "src"
         }
     },
     "autoload-dev": {

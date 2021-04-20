@@ -10,7 +10,7 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Support;
+namespace Ninhtqse\PHPIMAP\Support;
 
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
@@ -19,7 +19,7 @@ use Illuminate\Pagination\Paginator;
 /**
  * Class PaginatedCollection
  *
- * @package Webklex\PHPIMAP\Support
+ * @package Ninhtqse\PHPIMAP\Support
  */
 class PaginatedCollection extends Collection {
 

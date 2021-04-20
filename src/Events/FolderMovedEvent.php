@@ -10,14 +10,14 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Events;
+namespace Ninhtqse\PHPIMAP\Events;
 
-use Webklex\PHPIMAP\Folder;
+use Ninhtqse\PHPIMAP\Folder;
 
 /**
  * Class FolderMovedEvent
  *
- * @package Webklex\PHPIMAP\Events
+ * @package Ninhtqse\PHPIMAP\Events
  */
 class FolderMovedEvent extends Event {
 

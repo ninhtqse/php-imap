@@ -10,12 +10,12 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP;
+namespace Ninhtqse\PHPIMAP;
 
 /**
  * Class ClientManager
  *
- * @package Webklex\IMAP
+ * @package Ninhtqse\IMAP
  *
  * @mixin Client
  */

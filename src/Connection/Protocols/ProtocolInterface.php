@@ -10,18 +10,18 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Connection\Protocols;
+namespace Ninhtqse\PHPIMAP\Connection\Protocols;
 
-use Webklex\PHPIMAP\Exceptions\AuthFailedException;
-use Webklex\PHPIMAP\Exceptions\ConnectionFailedException;
-use Webklex\PHPIMAP\Exceptions\InvalidMessageDateException;
-use Webklex\PHPIMAP\Exceptions\MessageNotFoundException;
-use Webklex\PHPIMAP\Exceptions\RuntimeException;
+use Ninhtqse\PHPIMAP\Exceptions\AuthFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\ConnectionFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\InvalidMessageDateException;
+use Ninhtqse\PHPIMAP\Exceptions\MessageNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\RuntimeException;
 
 /**
  * Interface ProtocolInterface
  *
- * @package Webklex\PHPIMAP\Connection\Protocols
+ * @package Ninhtqse\PHPIMAP\Connection\Protocols
  */
 interface ProtocolInterface {
 

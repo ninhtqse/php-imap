@@ -10,15 +10,15 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Support\Masks;
+namespace Ninhtqse\PHPIMAP\Support\Masks;
 
 use Illuminate\Support\Str;
-use Webklex\PHPIMAP\Exceptions\MethodNotFoundException;
+use Ninhtqse\PHPIMAP\Exceptions\MethodNotFoundException;
 
 /**
  * Class Mask
  *
- * @package Webklex\PHPIMAP\Support\Masks
+ * @package Ninhtqse\PHPIMAP\Support\Masks
  */
 class Mask {
 

@@ -10,14 +10,14 @@
 *  -
 */
 
-namespace Webklex\PHPIMAP\Connection\Protocols;
+namespace Ninhtqse\PHPIMAP\Connection\Protocols;
 
-use Webklex\PHPIMAP\Exceptions\ConnectionFailedException;
+use Ninhtqse\PHPIMAP\Exceptions\ConnectionFailedException;
 
 /**
  * Class Protocol
  *
- * @package Webklex\PHPIMAP\Connection\Protocols
+ * @package Ninhtqse\PHPIMAP\Connection\Protocols
  */
 abstract class Protocol implements ProtocolInterface {
 
